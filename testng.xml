@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="com.zucitech.consoleapp.HrTest">
+                <methods>
+                    <include name="empDetailsTest"></include>
+                    <include name="removeEmp"></include>
+                    <include name="displaySalaryOfEmp"></include>
+                    <include name="addHourlyEmp"></include>
+                    <include name="addSalariedEmp"></include>
+                   <!-- <include name="addEmpDetails"></include>
+                    <include name="hourlyBasedEmp"></include>
+                    <include name="salariedBasedEmp"></include>
+                    <include name="salaryOfEmp"></include>
+                    <include name="removeAnEmp"></include>
+                    <include name="displayEmpDetails"></include>-->
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
